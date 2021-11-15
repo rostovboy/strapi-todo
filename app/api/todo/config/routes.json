@@ -25,6 +25,14 @@
       }
     },
     {
+      "method": "GET",
+      "path": "/top",
+      "handler": "todo.top",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "POST",
       "path": "/todos",
       "handler": "todo.create",
